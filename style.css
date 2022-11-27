@@ -1,0 +1,91 @@
+.header {
+    display: flex;
+    justify-content: center;
+    height: 40pt;
+}
+
+.flexcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+.left {
+    display: flex;
+    background-color: #FFF8E3;
+    padding-bottom: 300px;
+    padding-left: 0px;
+    padding-right: 600px;
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+
+}
+
+.right {
+    display: flex;
+    background-color: #DDECCB;
+    padding-bottom: 300px;
+    padding-right: 200px;
+    padding-left: 250px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+
+}
+
+
+.flexcontainer2 {
+    display: flex;
+    position: absolute;
+    padding-top: 15px;
+    margin-top: 200px;
+    margin-left: 0px;
+    margin-right: 500px;
+    margin-bottom: 5px;
+    padding-left: 200px;
+    padding-right: 200px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item1,
+.item2,
+.item3 {
+    background-color: #FEEAB9;
+    height: 40pt;
+
+}
+
+.item1 {
+
+    width: 100pt;
+    flex-basis: 50%;
+}
+
+.item2 {
+    width: 100pt;
+    flex-basis: 50%;
+
+
+}
+
+.item3 {
+    align-self: flex-end;
+    flex-basis: 100%
+}
+
+.flexcontainer3 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footer {
+    background-color: #FAFAFA;
+    padding-top: 25px;
+    height: 40pt;
+}
